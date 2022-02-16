@@ -44,7 +44,7 @@ const TodoItem = ({task, getAllTasks}) => {
                     {editable ? (
                         <input
                             type="texte"
-                            classeName="form-contol"
+                            className="form-contol"
                             value={newDescription}
                             onChange={(e) => setNewDescription(e.target.value)}
                         />
