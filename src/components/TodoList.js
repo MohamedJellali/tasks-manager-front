@@ -33,7 +33,12 @@ const TodoList = () => {
             </div>
         );
     } else {
-        return <h3>You Have No Tasks</h3>;
+        return (
+            <div>
+             <h3>You Have No Tasks, Please add One</h3>
+            <TodoInputs getAllTasks={getAllTasks}/>
+        </div>
+        )
     }
 }
 
